@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+}
+
+body {
+    background-color: #03020b;
+}
+
+.gameOver {
+    display: none;
+    font-size: 46px;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.square {
+    border: solid #fff 1px;
+    width: 30%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square p {
+    font-size: 82px;
+    color: #fff;
+}
+
+.notClicked:hover {
+    background-color: #fff;
+}
+
+.playerX {
+    color: rgb(255, 65, 97);
+}
+
+.playerO {
+    color: rgb(113 255 113);
+}
